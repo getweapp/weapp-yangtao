@@ -1,0 +1,36 @@
+/**index.wxss**/
+.input {
+  margin-top: 10px;
+  height: 40px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-color: lightgray;
+  border-style:solid;
+  border-width: 1px;
+  border-radius:5px;
+  flex-direction: column;
+}
+
+.placeinput {
+  height: 40px;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  background-color: white;
+  font: 10px;
+}
+
+.log-list {
+  display: flex;
+  flex-direction: column;
+  padding: 40rpx;
+}
+
+.log-item {
+  margin: 10rpx;
+} 
+
+.view_list {
+  height: 1px;
+  background-color: lightblue;
+}
